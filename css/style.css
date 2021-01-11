@@ -1,0 +1,27 @@
+body {
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background: #ECF0F1;
+  background: #222;
+}
+
+body::webkit-scrollbar {
+  display: none;
+}
+
+.welcome {
+  color: white;
+  font-family: "Baloo Bhai", sans-serif;
+  font-size: 2em;
+}
+
+a {
+  text-decoration: non;
+  color: #eee;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
